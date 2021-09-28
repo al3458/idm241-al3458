@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(36, 35, 35);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+}
+
+.title {
+    text-align: center;
+}
+
+.thumbnail {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bells {
+    width: 150px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.All {
+    margin-left: 3%;
+}
