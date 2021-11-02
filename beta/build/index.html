@@ -4,9 +4,129 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.js">
+    <link rel="stylesheet" href="/IDM-241/alpha/normalize.css">
+    <title>Beta Build</title>
 </head>
 <body>
-    
+    <nav role="navigation">
+        <div id="menuToggle">
+          <!--
+          A fake / hidden checkbox is used as click reciever,
+          so you can use the :checked selector on it.
+          -->
+          <input type="checkbox" />
+          
+          <!--
+          Some spans to act as a hamburger.
+          
+          They are acting like a real hamburger,
+          not that McDonalds stuff.
+          -->
+          <!-- <img id="menuBell" src="newBell.png" alt="" style="height: 84px; width: 90px;"> -->
+          
+          <div class="shaker">
+            <img id="mainBell" src="newBell.png" alt="Bell" style="height: 84px; width: 90px;">
+          </div>
+          <!--
+          Too bad the menu has to be inside of the button
+          but hey, it's pure CSS magic.
+          -->
+          <ul id="menu">
+            <a href="#"><li>All <img src="newBell.png" alt="" style="height: 64px; width: 70px;"></li></a>
+            <a href="#"><li>Personalized <img src="newBell.png" alt="" style="height: 64px; width: 70px;"></li></a>
+            <a href="#"><li>None <img src="newBell.png" alt="" style="height: 64px; width: 70px;"></li></a>
+          </ul>
+        </div>
+      </nav>
+
+
+    <div class="all">
+        <!-- <div class="shaker">
+            <img id="mainBell" src="newBell.png" alt="Bell" style="height: 84px; width: 90px;">
+        </div> -->
+        
+        
+        <div class="title">
+            <h1>Beta Build</h1>
+        </div>
+        
+            <h2>Website</h2>
+            <a href="https://www.youtube.com/" target="_blank">Link to site</a> <br>
+    <div class="begin">
+        <div class="trig">
+            <h2>Triggers</h2>
+            <p>
+                Mouse hover <br>
+                Mouse click
+            </p> 
+        </div>
+
+        <div class="rul">
+            <h2>Rules</h2>
+            <p> 
+                On hover: <br>
+                Cursor change to pointer<br>
+                Bell shakes <br>
+                Bell gets slightly larger <br> <br>
+
+                Off hover: <br> 
+                Cursor changes back to original selector<br> 
+                Bell reverts to original size <br> 
+                Bell stops shaking <br> <br>
+
+                On click: <br>
+                Bell stops shaking <br>
+                Bell pulses <br>
+                Modal appears under the bell <br>
+                Buttons and text are right aligned <br> <br>
+
+                On modal hover: <br>
+                Background color changes for selections <br> <br>
+
+                Off modal hover: <br>
+                Cursor changes to original <br>
+
+            </p>
+        </div>
+
+                
+        <div class="feed">
+        <h2>Feedback</h2>
+            <p>
+                On hover: <br>
+                Cursor change to pointer<br>
+                Bell shakes <br>
+                Bell gets slightly larger <br> <br>
+
+                Off hover: <br> 
+                Cursor changes back to original selector<br> 
+                Bell reverts to original size <br> 
+                Bell stops shaking <br> <br>
+
+                On click: <br>
+                Bell stops shaking <br>
+                Bell pulses <br>
+                Modal appears under the bell <br>
+                Buttons and text are right aligned<br> <br>
+
+                On modal hover: <br>
+                Background color changes for selections <br> <br>
+
+                Off modal hover: <br>
+                Cursor changes to original <br>
+            </p>
+        </div>
+            
+        <div class="loop">
+        <h2>Loops/Modes</h2>
+            <p>
+                Bell Shake loops on hover <br>
+                Modal appears under bell on click<br>
+            </p>
+        </div>
+    </div>      
+</div>
 </body>
 </html>
